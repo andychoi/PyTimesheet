@@ -1,18 +1,21 @@
 # Mine
 .DS_Store
 .idea/
-timesheet/settings.py
-ts_app/migrations/
+# timesheet/settings.py
+# ts_app/migrations/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
+*.sqlite3
+
 # C extensions
 *.so
 
 # Distribution / packaging
+.venv/*
 .Python
 env/
 build/

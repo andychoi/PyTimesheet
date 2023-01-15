@@ -1,8 +1,8 @@
 from django.shortcuts import render, redirect
 from django.utils import timezone
 
-from timesheet_app.forms import AddEditClientForm
-from timesheet_app.models import Client
+from ts_app.forms import AddEditClientForm
+from ts_app.models import Client
 
 
 def IndexView(request):

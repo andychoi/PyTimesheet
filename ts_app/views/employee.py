@@ -5,7 +5,7 @@ from django.http import JsonResponse
 from django.contrib.auth import login, authenticate
 from django.shortcuts import render, redirect
 
-from timesheet_app.forms import AddEditEmployeeForm
+from ts_app.forms import AddEditEmployeeForm
 
 
 def IndexView(request):

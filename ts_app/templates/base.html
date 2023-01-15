@@ -1,4 +1,4 @@
-<!doctype html>{% load timesheet_tags %}{% load static %}
+<!doctype html>{% load ts_tags %}{% load static %}
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -34,7 +34,7 @@
                 {% if user.is_authenticated %}
                 <div class="navbar-nav mr-auto">
                     <a class="nav-item nav-link" id="entry" href="/">entry<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" id="reports" href="/reports">reports</a>
+                    <a class="nav-item nav-link" id="report" href="/report">reports</a>
                     <a class="nav-item nav-link" id="employee" href="/employee">employees</a>
                     <a class="nav-item nav-link" id="project" href="/project">projects</a>
                     <a class="nav-item nav-link" id="client" href="/client">clients</a>
